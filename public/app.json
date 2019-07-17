@@ -1,0 +1,22 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenFin React Ticker",
+        "url": "http://localhost:3000/public/index.html",
+        "uuid": "openfin-react",
+        "applicationIcon": "http://localhost:3000/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": false
+        
+    },
+    "runtime": {
+        "arguments": "--remote-debugging-port=9090",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "icon": "http://localhost:3000/favicon.ico",
+        "name": "Open Fin React Ticker"
+    }
+}
